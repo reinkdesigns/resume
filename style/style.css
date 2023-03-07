@@ -1,0 +1,313 @@
+html,
+body,
+.border, 
+.background,
+.inner{
+  top:5%;
+  margin: 0;
+  width: 100%;
+  height: auto; 
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.subsection{
+  font-size: 0px;
+}
+
+.line{
+  width:50%;
+  border: 1px groove #7895B2;
+  position: fixed;
+  z-index: 9;
+  pointer-events: none;
+  height: 120%;
+  top: -20px;
+}
+
+body{
+  background-color: #F5EFE6;
+
+}
+
+.topBar{
+    width: 100%;
+    height: 10%;
+    top: 0;
+    position: absolute;
+    background-color: aqua;
+}
+
+.border {
+    border: 15px groove #7895B2;
+    border-image: linear-gradient(#7895B2, #AEBDCA) 30;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 9;
+    pointer-events: none;
+    height: 120%;
+    top: -20px;
+  }
+
+  .homePage{
+    opacity: 1.0;
+  }
+  .workXpPage{
+    opacity: 0.0;
+  }
+  .examplePage{
+    opacity: 0.0;
+  }
+  .eduRef{
+    opacity: 0.0;
+  }
+
+.inner{
+    background-color: #F5EFE6;
+    width:80%;
+    word-break: break-word;
+    padding: 10%;
+    padding-top: 50px;
+    z-index: 8;
+    position: absolute;
+}
+
+h1:hover{
+  cursor: default;
+}
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  top: 100%;
+  padding-bottom: 25px;
+}
+
+.box{
+    top: -20px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin-left: 10;
+    width: 40%;
+    box-shadow: 8px 8px #888888;
+    margin-bottom: 30px;
+    position:relative;
+    width: 45%;
+}
+
+.box1{
+  min-height: 170px;
+}
+
+.box1, .box3, .box5{
+  margin-left: auto; 
+  margin-right: 0;
+  
+    
+}
+
+.box2, .box4{
+  margin-left: 0; 
+  margin-right: auto;
+}
+
+
+.boxCenter{
+  top: -20px;
+  background-color: #ffffff;
+  padding: 50px;
+  margin: auto;
+  width: 40%;
+  box-shadow: 8px 8px #888888;
+  margin-bottom: 80px;
+}
+
+
+
+.PictureTag{
+  top: 150px;
+  margin-left: 5%; 
+  margin-right: 0;
+  position: absolute;
+}
+
+.face{
+  width: 150px;
+  margin: auto;
+  position: relative;
+}
+
+.smallBox:hover,.box:hover,.subFont:hover{
+  cursor: default
+}
+
+.smallBox{
+  background-color: #AEBDCA;
+  color: #000000;
+  width: 100px;
+  padding: 3px;
+  box-shadow: 8px 8px #888888;
+  bottom: 10px;
+  z-index: 2;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+
+.linkedin{
+  text-decoration: none;
+  color: #000000;
+}
+
+.linkedin:hover{
+  cursor: pointer;
+}
+
+.subBar{
+  background-color: #333;
+  overflow: hidden;
+  padding-bottom: 10px;
+  bottom: 0%;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+}
+
+.subBar a{
+    float: center;
+    color: #62a3f8;
+    text-align: center;
+    text-decoration: none;
+    top: 100%;
+}
+
+
+#navbar {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    /*^   Unselectable text for nav bar   ^*/
+    cursor: pointer;
+    z-index: 10;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 3px solid #000000;
+
+    top: 0%;
+    position: fixed;
+    width: 100%;
+  }
+  
+
+  #navbar a {
+    font-size: 20px;
+    /* border: #1a1818;
+    border-style: solid; */
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  .pHeader{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .pHeader2{
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+
+  p{
+    text-align: center;
+  }
+
+  .contactInfo{
+    color: #f2f2f2;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+  .canvasimg {
+    width: 600px;
+    background-color: white;
+    border: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    position: absolute;
+
+  }
+
+  .canvas {
+    width: 600px;
+    box-shadow: 8px 8px #888888;
+    background-color: white;
+    border: #000000;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+
+.outline{
+  border: #000000;
+  border-style: 1px;
+  border-style: dotted;
+}
+
+
+  .fa-github{
+    margin: auto;
+    width: 3.5%;
+    left: 0;
+    right: 0;
+    transition: 1s;
+    position: absolute;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+
+    .fa-github:hover{
+    scale:130%;
+    color: rgb(0, 81, 255);
+    position: absolute;
+  }
+
+#examplePage{
+  scale:10%;
+  top:-50%
+}
