@@ -311,3 +311,13 @@ h1{
   scale:10%;
   top:-50%
 }
+
+
+
+.samToyLink{
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(32, 32, 255);
+  top: 3rem;
+}
