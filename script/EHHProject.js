@@ -11,6 +11,8 @@ let curImg = 0
 let imgOut = 0
 let pauseEHHIntervel = false
 
+
+
 //pauses carousel on mouse over
 myCanvas.onmouseout = function(){pauseEHHIntervel=false};
 myCanvas.onmouseover = function(){pauseEHHIntervel=true};
